@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Форма</title>
+    </head>
+    <body>
+        <h1>Урок "Форми": теги та їх атрибути.</h1>
+        <h3>Розкажіть трошки про себе...</h3>
+        <h5>Спробуйте створити аналогічну форму.</h5>
+        <form>
+            <fieldset>
+                <legend>Коротко про себе</legend>
+                Ім'я: <input type="text" name="fistname"><br><br>
+                Прізвище: <input type="text" name="fistname"><br><br>
+                Стать: 
+                <input type="radio" name="gender" value="men" checked>чоловіча
+                <input type="radio" name="gender" value="women" checked>жіноча<br><br>
+                Вік: <input type="text" name="vik" size="5">років<br>
+            </fieldset>
+            <fieldset>
+            <legend>Докладніше про себе</legend>
+            <input type="radio" name="gender" value="mch" checked >Молодий чоловік <br> 
+            <input type="radio" name="gender" value="div">Дівчина <br> 
+            <input type="text" name="data"> Дата народження <br>
+            <input type="text" name="stan">Сімейний стан <br>
+            <input type="text" name="status">Соціальний статус <br>
+            <input type="text" name="house">Місце проживання<br>
+            <br>
+            <h4>Що ви зазвичай робите на вихідних:</h4>
+            <input type="checkbox" name="exam" value="сон">Сплю<br>
+            <input type="checkbox" name="exam" value="прогулянка">Гуляю з друзями<br>
+            <input type="checkbox" name="exam" value="рибалка">Ходжу на рибалку<br>
+            <input type="checkbox" name="exam" value="карти">Граю в карти<br>
+            <h4>Розповісти про форми в книзі про HTML:</h4>
+            <select name="book">
+                <option value="b1">Html5</option>
+                <option value="b2">Html4</option>
+                <option value="b3">Html3</option>
+                <option value="b4">Html2</option>             
+            </select>
+            <br>
+            <h4>Скільки книг ви прочитали за своє життя:</h4>
+            <input type="radio" name="kilk" value="kilk1">0-10 <br> 
+            <input type="radio" name="kilk" value="kilk2">11-20 <br> 
+            <input type="radio" name="kilk" value="kilk3">21-50 <br> 
+            <input type="radio" name="kilk" value="kilk4">50+ <br> 
+            <br>
+            <h4>Ваші коментарі:</h4>
+            <textarea name="message" rows="10" cols="50"></textarea>
+            <br><br>
+            <select name="poz" size="3">
+                <option value="1poz">Перша позиція</option>
+                <option value="2poz">Друга позиція</option>
+                <option value="3poz">Третя позиція</option>
+            </select>           
+            </fieldset>
+            <fieldset>
+                <legend>На завершення</legend>
+                <button name="exam" value="кнопка">Це поле було введено до Вас</button>
+                <h3>Хочете підписатися на наймоднішу розсилку спаму?</h3>
+                <h4> Виберіть категорії</h4>
+                <input type="checkbox" name="exam" value="обладнання">Обладнання<br>
+                <input type="checkbox" name="exam" value="обід">Як приготувати обід<br>
+                <input type="checkbox" name="exam" value="заробіток">Заробити мільйон за два дні!<br>
+                <h3>На скільки важке завдання?</h3>
+                <input type="radio" name="ozink" value="ozink1">Зовсім ні <br> 
+                <input type="radio" name="ozink" value="ozink2">Так собі <br> 
+                <input type="radio" name="ozink" value="ozink3">Ледве виконали <br> 
+            </fieldset>
+            <br>
+            <input type="submit" value="Відправити">
+        </form>
+
+    </body>
+</html>
